@@ -58,7 +58,7 @@ function inicio() {
     const dadosValidos = validacaoGeral(idadeDoUsuarioConvertida)
 
     if (dadosValidos === "noNumber") {
-        console.log('iIdade inválida. Informe apenas números')
+        console.log('Idade inválida. Informe apenas números')
         return
     }
 
